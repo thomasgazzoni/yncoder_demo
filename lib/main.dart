@@ -59,6 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       drawer: MyDrawer(),
       body: ListView.builder(
+          physics: BouncingScrollPhysics(),
           itemCount: data.length,
           itemBuilder: (context, index) {
             return BlogArticle(post: data[index]);

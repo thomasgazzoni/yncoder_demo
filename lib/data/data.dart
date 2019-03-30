@@ -12,7 +12,7 @@ List<BlogPostModel> getBlogPosts() => [
           id: 73,
           title: '2019年第一次社区活动',
           content: '时间: 2019年1月26日 下午 2:00\n地点: 云南大学科技创业园2楼',
-          authorName: 'mytharcher',
+          authorName: 'ZhangRGK',
           authorUrl: 'https://avatars1.githubusercontent.com/u/4213847?v=4',
           category: Category.activities),
       BlogPostModel.fromJson({
